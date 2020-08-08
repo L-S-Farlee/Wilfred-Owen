@@ -1,0 +1,568 @@
+body {
+	background-color: #000000;
+	background-image: url(img/background1.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size: 125% auto;
+	color: #fff9f4;
+	padding:0;
+	margin:0;
+	font-size: 1.05em;
+	}
+	
+header {
+    background:rgba(1,1,1,0.15);
+}
+
+main {
+	background-color: #111111;
+	font-family: 'Arimo', sans-serif;
+	padding: 0px;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration-color: #777777;
+}
+
+#pt {
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	font-family: 'Amiri', serif;
+	font-size: 1.85em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 70%;
+}
+
+#spt {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-family: 'Amiri', serif;
+	font-size: 1.15em;
+	text-align: center;
+}
+
+#womimg1 {
+	margin: 2rem auto 2rem auto;
+	display: block;
+	max-width: 35%;
+	min-width: 225px;
+}
+
+#womimg2 {
+	margin: 2rem auto 2rem auto;
+	display: block;
+	max-width: 50%;
+	min-width: 275px;
+}
+
+.cit {
+	font-style: italic;
+	font-size: 1.1em;
+	text-align: center;
+	font-family: 'Amiri', serif;
+	padding: 1em 0 1em 0;
+}
+
+.cits {
+	font-size: .8em;
+	font-style: italic;
+	font-family: 'Arimo', sans-serif;
+	line-height: 3em;
+}
+
+.maintext {
+	width: 80%;
+	margin: auto;
+	padding: 1rem 0 1rem 0;
+	font-size: 1.1rem;
+	color: #DDDDDD;
+}
+
+footer {
+	background-color: #222222;
+	text-decoration: none;
+	text-align: center;
+	padding:.7rem 0 .7rem 0;
+	margin: auto;
+	color: #AAAAAA;
+	font-family: 'Amiri', serif;
+	font-weight:bold;
+	letter-spacing: 0.18em;
+	font-size: 1em;
+	line-height: 1rem;
+}
+
+footer a {
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+footer p {
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+#headerpic img {
+	max-width: 45%;
+	min-width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px 0;
+	pointer-events: none;
+    user-select: none;
+}
+
+#pagewrap {
+	width: 100%;
+	margin:0;
+}
+
+nav {
+    border-width:1px 0;
+    list-style:none;
+    text-align:center;
+	background-color: rgba(1,1,1,0.9);
+}
+
+nav ul {
+    list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: auto;
+}
+
+nav li {
+	font-size: 1.7rem;
+	font-family: 'Gidugu', sans-serif;
+	letter-spacing: .09em;
+	background-color: #222222;
+	line-height: 50px;
+	height: auto;
+	border-width: 1px;
+	border-style: solid none;
+	margin: auto;
+}
+
+nav li li {
+	font-size: 1.4rem;
+	letter-spacing: 1.1px;
+}
+
+nav a {
+	display:block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	transition: .3s background-image;
+}
+
+nav a:hover {
+  background-color: #555555;
+  color: #DDDDDD;
+}
+
+nav a:active {
+  background-color: #999999;
+  color: #FFFFFF;
+}
+
+.poem {
+	text-align: justify;
+	margin: 4em auto 6em auto;
+	max-width: 23em;
+	line-height: .5rem;
+	padding: 0 1em 0 2em;
+	font-family: 'Amiri', serif;
+	font-size: 1.3rem;
+}
+
+#poem2 {
+	text-align: justify;
+	margin: auto;
+	max-width: 27.6em;
+	line-height: .5rem;
+	padding: 5em 1em 5em 1em;
+	font-family: 'Amiri', serif;
+	font-size: 1.3rem;
+}
+
+.pt {
+	text-align: center;
+	letter-spacing: .1em;
+	font-size: 2.7em;
+	padding: 2em 0 2em 0;
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+
+#poemlinks .pt {
+	padding: 0px;
+}
+
+.ls {
+	font-size: 1.5em;
+}
+
+.ppt {
+	color: #CCCCCC;
+	font-size: 1.1em;
+	width: 60%;
+	display:block;
+	margin: auto;
+	padding: 3em 0 4.5em 0;
+}
+
+#operating {
+	margin: auto;
+	max-width: 80%;
+	min-width: 400px;
+	display:block;
+	padding: 3em 0 0 0;
+}
+
+#beaumont {
+	margin: auto;
+	max-width: 90%;
+	min-width: 400px;
+	height: auto;
+	display:block;
+	padding: 3em 0 0 0;
+}
+
+#ypres {
+	margin: auto;
+	max-width: 90%;
+	min-width: 400px;
+	display:block;
+	padding: 3em 0 0 0;
+}
+
+#somme_w {
+	margin: auto;
+	max-width: 75%;
+	min-width: 400px;
+	display:block;
+	padding: 3em 0 0 0;
+}
+
+#owen_bio {
+	margin: auto;
+	max-width: 75%;
+	min-width: 400px;
+	height: auto;
+	display:block;
+	padding: 3em 0 0 0;
+}
+
+#overthetop {
+	margin: auto;
+	max-width: 75%;
+	min-width: 400px;
+	height: auto;
+	display:block;
+	padding: 3em 0 0 0;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    margin: 3rem auto 2rem auto;
+	padding: 0;
+    border: none;
+    border-top: medium double #555;
+    color: #555;
+    text-align: center;
+}
+hr:after {
+    content: " / ";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.6em;
+    padding: 0 .4em;
+    background-color: #111111;
+	font-family: 'IM Fell Great Primer SC', serif;
+	border-radius: 200px;
+}
+
+#subquote {
+	line-height: 1.5em;
+	font-style:italic;
+}
+
+#csq {
+	display:block;
+	margin: 0 auto 4em auto;
+}
+
+#csq p {
+	text-align: center;
+	font-family: 'Amiri', serif;
+	font-size: 1.4rem;
+}
+
+.poem span {
+	text-align: right;
+	font-size: 1.3rem;
+	padding: 0 5em 3em 0;
+	display:block;
+	font-style:normal;
+}
+
+.pn {
+	width: 100%;
+	text-align: center;
+	letter-spacing: .2em;
+	font-size: 1.8em;
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.indent {
+	text-align: left;
+	padding: 0 0 0 6.5em;
+	font-size: 1em;
+}
+
+.indent2 {
+	text-align: left;
+	padding-left: 4em;
+}
+
+#preface{
+	text-align: justify;
+	max-width: 35em;
+	margin: auto;
+	padding: .5em 0em 1em 0em;
+	font-family: 'Amiri', serif;
+	font-size: 1.3rem;
+	line-height: 1.5em;
+	font-style:italic;
+}
+
+#pfdiv {
+	margin: 1.5em 0 2em 0;
+}
+
+.pagetitle {
+	text-align: center;
+	letter-spacing: .2em;
+	font-size: 2.9em;
+	padding: .5em 0 .20em 0;
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-weight: bold;
+}
+
+#pagetitle_alt_pad {
+	text-align: center;
+	letter-spacing: .2em;
+	font-size: 2.7em;
+	padding: .5em 0 .20em 0;
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-weight: bold;
+}
+
+#poemlinks {
+	display:block;
+	margin: 0 auto 5rem auto;
+	text-align: center;
+}
+
+#stats {
+	display:block;
+	width:80%;
+	overflow:auto;
+	margin-bottom: 100px;
+	margin: 2rem auto 4.5rem auto;
+}
+
+#stats table {
+	width:100%;
+}
+
+#stats tr {
+	text-align:center;
+	background-color: #222;
+}
+
+#stats th {
+	text-align: center;
+	border: 2px solid #666;
+	font-family: 'Gidugu', sans-serif;
+	font-weight: normal;
+	font-size: 1.8rem;
+	letter-spacing:.05em;
+	text-transform:uppercase;
+	padding:0;
+	margin:0;
+	background-color: rgb(23, 23, 23);
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+#stats td {
+	font-family: 'Amiri', serif;
+	font-size:1rem;
+	letter-spacing:.05em;
+	text-align: center;
+	border: 1px solid #666;
+	padding:1em 0 1em 0;
+}
+
+.hovertr {
+	color: #222;
+}
+
+.hovertr:hover {
+	color:red;
+	text-shadow: 1px 1px #000;
+	transition: color .5s;
+}
+
+.td_st {
+	color: #FFF;
+}
+
+#suggestions {
+	display:block;
+	text-align: center;
+}
+
+#txtbox {
+	color: #FFF;
+	background-color: #000;
+	width: 350px;
+	height: 125px;
+	font-size:1rem;
+	font-family: 'Amiro', sans-serif;
+	letter-spacing: .1rem;
+	border-color: #888;
+	border-radius: 10px;
+	padding:10px;
+}
+
+#txtbox_s {
+	color: #FFF;
+	background-color: #000;
+	width: 150px;
+	font-size:1.2rem;
+	font-family: 'Gidugu', sans-serif;
+	letter-spacing: .1rem;
+	border-color: #888;
+	border-radius: 60px;
+}
+
+#furtherreading {
+	display:block;
+	margin:auto;
+	width: 60%;
+	padding-bottom: 1rem;
+}
+
+h1 {
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-size: 2rem;
+	letter-spacing: .1em;
+	font-weight: bold;
+	padding: 2em 0 .5em 0;
+	text-align:center;
+}
+
+#furtherreading li {
+	font-size: 1.4rem;
+	font-family: 'Amiri', serif;
+	letter-spacing:.05em;
+	padding: .5em 0 0 0;
+	
+}
+
+#furtherreading ul {
+	list-style-type: none;
+	padding-left:0;
+}
+
+#furtherreading ul ul li {
+	font-size: 1rem;
+	font-family: 'Amiro', sans-serif;
+	letter-spacing:.025em;
+	padding:0;
+	font-weight:normal;
+}
+
+#homesub {
+	font-size: .6em;
+	letter-spacing: .1rem;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+	padding: 30px 75px 30px 75px;
+}
+  nav li {
+    width: 190px;
+    float: left;
+	border-width: 1px;
+	border-style: none solid;
+	display: inline-block;
+	height: 50px;
+	margin-right:-4px;
+  }
+  nav ul {
+    overflow: auto;
+    width: 768px;
+    margin: auto;
+  }
+  nav {
+	background-color: #222222;
+  }
+  
+  #pagewrap {
+	width: 92.5%;
+	margin:auto;
+  }
+  nav li ul {
+	position: absolute;
+	display: none;
+	width: inherit;
+  }
+  nav li:hover ul {
+  display: block;
+  }
+  nav li ul li {
+  display: block;
+  width: 98%;
+  margin: auto;
+  border-top: 1px solid;
+  border-color: #888888;
+  text-transform: none;
+  }
+  .maintext {
+	  width: 60%
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #pagewrap {
+	width: 85%;
+	margin:auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	td {
+	color: #FFF;
+    }
+}
+
+@media screen and (max-width: 568px) {
+	
+	.poem {
+	line-height: normal;
+	}
+	#poem2 {
+	line-height: normal;
+	}
+}
